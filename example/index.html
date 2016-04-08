@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <nav class="top-nav">
+    	<ul>
+				<li><a href="#one">one</a></li>
+				<li><a href="#two">two</a></li>
+				<li><a href="#three">three</a></li>
+				<li><a href="#four">four</a></li>
+    	</ul>
+    </nav>
+			<ul class="nav-fixed">
+				<li><a href="#one">1</a></li>
+				<li><a href="#two">2</a></li>
+				<li><a href="#three">3</a></li>
+				<li><a href="#four">4</a></li>
+			</ul>
+			<div class="one full eavesdrop">1</div>
+			<div class="two full eavesdrop">2</div>
+			<div class="three full eavesdrop">3</div>
+			<div class="four full eavesdrop">4</div>
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="js/jquery.eavesdrop.min.js"></script>
+      <script type="text/javascript">
+      	$(document).ready(function(){
+      		$('.top-nav').eavesdrop();
+      		$('.nav-fixed').eavesdrop();
+      	});
+      </script>
+    </body>
+</html>
