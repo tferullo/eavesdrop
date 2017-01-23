@@ -1,0 +1,12 @@
+{
+    "name": "jquery-eavesdrop",
+    "version": "1.0.0",
+    "main": "jquery.eavesdrop",
+    "repository": "git@github.com:tferullo/eavesdrop.git",
+    "author": "Tony Ferullo",
+    "contributors": [{
+        "name": "Mickaël OUILLON",
+        "email": "mickael.ouillon@gmail.com"
+    }],
+    "license": "MIT"
+}
