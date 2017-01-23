@@ -41,7 +41,8 @@ $('.element').eavesdrop();
 $('.element').eavesdrop({
   watchClass: 'eavesdrop',
   activeClass: 'active',
-  trackUrl: true
+  trackUrl: true,
+  offset: 50
 });
 ```
 
@@ -50,6 +51,7 @@ $('.element').eavesdrop({
 | watchClass    | string         | 'eavesdrop'| class to be applied to elements the nav should track |
 | activeClass   | string         | 'active'   | class added to the active item in the nav            |
 | trackUrl      | boolean        | true       | updates url has on scroll or click (Will always be false if the plugin is initialized more than once.)                   |
+| offset        | integer        | 0          | offset pixel to scroll                               |
 
 ## Dependencies
 jQuery
